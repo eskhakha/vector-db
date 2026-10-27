@@ -1,0 +1,20 @@
+# Data written by `go run ./cmd/vecdemo -dir ./data` (removed by `make clean`)
+data/
+
+# Go build and profiling output
+/vecdb/vecdemo
+/vecdb/vecdemo.exe
+*.test
+*.out
+*.prof
+
+# Old snapshots and zips kept next to the repo, not in it
+_archive/
+*.zip
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/

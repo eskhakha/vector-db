@@ -1,0 +1,4 @@
+# Keep LF everywhere, including Windows checkouts: gofmt and the WAL's
+# byte-level tests assume it, and mixed endings make diffs noisy.
+* text=auto eol=lf
+*.zip binary
